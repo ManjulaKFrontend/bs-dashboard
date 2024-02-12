@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container-fluid" style="font-size: 14px;">
+    <nav class="navbar " >
+       
+          <a class="navbar-brand" href="#">
+          <button class="navbar-toggler my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          </a>
+          <div class="offcanvas offcanvas-start bg-secondary text-dark " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+           
+            <div class="offcanvas-body  col-sm-6">
+                <ul class="list-unstyled">
+                    <h5 class="mt-4">CRM Dashboard</h5>
+                   
+                <li class="text-primary ">  <i class="fa-solid fa-user px-1"></i>PROFILE</li>
+                <li class="text-primary "><i class="fa-solid fa-file px-1"></i>REPORT</li>
+               <li>Graph</li>
+               <li>Text</li>
+            <li class="text-primary "><i class="fa-solid fa-bullhorn px-1"></i>CHANNELS</li>
+           
+            <li>email</li>
+            <li>phone call</li>
+            <li>online chat</li>
+          
+            <li class="text-primary "><i class="fa-solid fa-ticket px-1"></i>TICKET STATUS</li>
+            <li>Created</li>
+            <li>Open</li>
+            <li>Responded</li>
+            <li>Solved</li>
+            <li>Other</li>
+            <li>Deleted</li>
+
+
+
+            <li >Full Tickets Report</li>
+            <li class="text-secondary">Dashboard report</p><button class="btn btn-success rounded-pill ">Download  <i class=" fa-solid fa-arrow-down "></i></li>
+        </ul>
+
+        
+
+
+
+            </div>
+          </div>
+
+
+            
+    </nav>
+          </div>
+    
+  
+ 
+       
+   
+       
+
+
+   
+
+   
+    
+
+
+
+<!--grid start-->
+
+
+<div class="container text-center my-2 mt-5" style="padding-left:5%;font-size: 13px; ">
+    <div class="row ">
+    <div class="col-sm-2 bg-primary rounded  p-2 my-1 ">
+      <div class=" ">Avg Full Reply Time
+    <div class="">30h 15min</div>
+      </div>
+    </div>
+    
+    
+    <div class="col-sm-2  bg-secondary rounded my-1 p-2 ">
+      <div class=" ">Avg Full Reply Time
+    <div class=" ">30h 15min</div>
+    </div>
+    </div>
+    
+    
+    
+    
+    
+    <div class="col-sm-2 p-2 ">
+    <div class="bg-secondary rounded p-1 ">Messages <span class="badge rounded-pill bg-danger">-23%</span></div>
+    <div class="bg-secondary rounded p-1 mt-1">Emails <span class="badge rounded-pill bg-success">+33%</span></div>
+    </div>
+    
+    <div class="col-sm-3 bg-primary rounded ">
+      <div class="  text-white ">
+    <p>First Reply and Full Resolve Time
+    </p>
+      <button class=" btn btn-secondary">25 hours</button>
+      </div>
+    
+    </div>
+    </div>
+     
+    </div>
+     
+      
+    
+    <!--row 2-->
+    
+    <div class="container mt-3" style="padding-left: 5%;">
+    <div class="row">
+    
+      <div class="col-sm-6  bg-primary rounded py-1" style="font-size: 13px;">
+        <ul class=" list-group list-group-horizontal list-unstyled ">
+          <li class="list-item px-3">Tickets Created vs Tickets solved</li>
+          <li class="list-item "> Ticket solved<i class="fa-solid fa-minus text-danger"></i></li>
+          <li class="list-item "> Ticket Created<i class="fa-solid fa-ellipsis text-danger"></i></li>
+        </ul>
+     
+      
+       
+    
+    
+    
+        <ul class="list-group list-unstyled px-2 py-3 ">
+          <li class="list-item ">90</li>
+          <li class="list-item ">80</li>
+          <li class="list-item ">70</li>
+          <li class="list-item ">60</li>
+          <li class="list-item ">50</li>
+          <li class="list-item ">40</li>
+          <li class="list-item ">30</li>
+          <li class="list-item">20</li>
+        </ul>
+     
+    
+    
+        
+        <ul class="list-group list-group-horizontal list-unstyled py-2 px-3">
+    
+          <li class="list-item px-2">Jan</li>
+          <li class="list-item px-2">Feb</li>
+          <li class="list-item px-2">Mar</li>
+          <li class="list-item px-2">April</li>
+          <li class="list-item px-2">May</li>
+          <li class="list-item px-2">Jun</li>
+          <li class="list-item px-2">Jul</li>
+    
+    
+    
+        </ul>
+      
+      </div>
+
+      <div class="col-sm-3 bg-secondary rounded">View Full Statement</div>
+    
+    
+     
+    </div>
+    </div>
+    
+    
+    
+    
+    <!--row3-->
+    <div class="container my-1 " style="padding-left: 5%; font-size: 13px;">
+    <div class="row ">
+      <div class="col-sm-3 mt-1 text-center bg-secondary rounded p-2"  >
+        Ticket By Type
+
+
+
+        <div class="circle-wrap">
+          <div class="circle">
+            <div class="mask-full">
+              <div class="fill"></div>
+            </div>
+            <div class="mask half">
+              <div class="fill"></div>
+            </div>
+            <div class="inside-circle"> 50% </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+
+
+
+
+
+        
+        
+  
+     
+     
+    
+    <div class="col-sm-3 mt-1  text-center bg-primary rounded p-2 ">
+    New Tickets vs Returned Tickets 
+
+
+
+
+    <div class="circle-wrap">
+      <div class="circle">
+        <div class="mask-full">
+          <div class="fill2"></div>
+        </div>
+        <div class="mask half">
+          <div class="fill"></div>
+        </div>
+  
+        <div class="inside-circle">50% </div>
+        
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    </div>
+    
+    
+    
+    
+    <div class="col-sm-3 rounded bg-secondary text-center mt-1 p-2">
+      Number of Ticket/Week Day
+    
+    
+    <ul class="list-group list-group-horizontal list-unstyled text-center pt-5 ">
+    
+      <li class="list-item px-2 py-5">Mon</li>
+      <li class="list-item  py-5">Tue</li>
+      <li class="list-item px-2 py-5">Wed</li>
+      <li class="list-item  py-5">Thu</li>
+      <li class="list-item px-2 py-5">Fri</li>
+      <li class="list-item  py-5">Sat</li>
+      <li class="list-item px-2 py-5">Sun</li>
+    
+    
+    
+    </ul>
+    
+    </div>
+    
+    </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>  
+</body>
+</html>
